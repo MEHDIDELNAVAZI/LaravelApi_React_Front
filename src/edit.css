@@ -52,7 +52,7 @@ input {
 }
 
 input:focus {
-  border-color: #b72424;
+  border-color:#b72424;;
 }
 
 .btn-edit {
@@ -70,8 +70,7 @@ input:focus {
 }
 
 .btn-add,
-.btn,
-.btn-delete {
+.btn , .btn-delete {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #b72424;
@@ -271,35 +270,5 @@ table > tbody > tr > td {
   100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* Styling for the aside */
-.aside {
-  background-color: #f9f9f9;
-  padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-/* Styling for the close button */
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-/* Adjust close button on smaller screens */
-@media (max-width: 768px) {
-  .close-button {
-    top: 5px;
-    right: 5px;
-    padding: 3px 8px;
-    font-size: 12px;
   }
 }
